@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { GoStarFill } from "react-icons/go";
-import { FaXTwitter, FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram, FaFigma } from "react-icons/fa6";
 import { SiThreads, SiGoogle, SiUnsplash } from "react-icons/si";
+import { RiVercelLine } from "react-icons/ri";
+
 import { LuGithub } from "react-icons/lu";
 
 const TechInfo = () => {
@@ -71,27 +73,42 @@ const TechInfo = () => {
               <div className={iconStyle}>
                 <FaXTwitter size={30} />
               </div>
-              <div className={iconStyle}>
-                <SiThreads size={30} />
-              </div>
+
               <div className={iconStyle}>
                 <SiGoogle size={30} />
               </div>
+              <a
+                href="https://www.instagram.com/af.hettt/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className={iconStyle}>
+                  <FaInstagram size={30} />
+                </div>
+              </a>
               <div className={iconStyle}>
-                <FaInstagram size={30} />
+                <FaFigma size={30}/>
+
               </div>
-              <div className={iconStyle}>
-                <SiUnsplash size={30} />
-              </div>
-              <div className={iconStyle}>
-                <a
-                  href="https://github.com/Aizenn99"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                href="https://github.com/Aizenn99"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className={iconStyle}>
                   <LuGithub size={30} />
-                </a>
-              </div>
+                </div>
+              </a>
+
+              <a
+                href="https://vercel.com/hets-projects-43691b22"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className={iconStyle}>
+                  <RiVercelLine size={30} />
+                </div>
+              </a>
             </div>
           </div>
         </div>
