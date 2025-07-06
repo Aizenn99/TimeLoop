@@ -22,7 +22,7 @@ const Info = () => {
           <span className="text-2xl font-semibold">AKA.</span>
           <br />
           <p className="mt-2 ">
-            I specialize in AI engineering and web development, crafting
+             Specialize in AI engineering and web development, crafting
             innovative solutions that bridge the gap between technology and
             creativity. Whether it's building intelligent systems or intuitive
             user interfaces, I love turning ideas into impactful digital

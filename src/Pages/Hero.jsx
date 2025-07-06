@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { IoInfinite } from "react-icons/io5";
 import { LuCircleDotDashed } from "react-icons/lu";
+import { Link, useNavigate } from "react-router-dom";
+import Contact from "./contact";
 
 const Hero = () => {
   return (
@@ -26,12 +28,15 @@ const Hero = () => {
         <div className="text-muted-foreground  font-mono tracking-tight ">
           since 2023
         </div>
-        <div className="rounded-3xl border cursor-pointer border-white bg-gray-100/15 text-white font-bebas flex gap-2 tracking-widest backdrop-blur-lg p-2 mt-4">
-          <span className="flex items-center">
-            <LuCircleDotDashed className="animate-spin-slow  text-green-500" />
-          </span>
-          Available for work
-        </div>
+        <a href="#contact">
+  <div className="rounded-3xl border cursor-pointer border-white bg-gray-100/15 text-white font-bebas flex gap-2 tracking-widest backdrop-blur-lg p-2 mt-4">
+    <span className="flex items-center">
+      <LuCircleDotDashed className="animate-spin-slow text-green-500" />
+    </span>
+    Available for work
+  </div>
+</a>
+        
       </div>
     
     </div>

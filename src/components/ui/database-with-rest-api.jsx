@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "motion/react";
 import { Folder, HeartHandshakeIcon, SparklesIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { FaNodeJs, FaReact } from "react-icons/fa6";
+import { SiPostman } from "react-icons/si";
 
 const DatabaseWithRestApi = ({
   className,
@@ -20,7 +22,7 @@ const DatabaseWithRestApi = ({
       )}>
       {/* SVG Paths  */}
       <svg
-        className="h-full sm:w-full text-muted"
+        className="h-full sm:w-full text-gray-400/50"
         width="100%"
         height="100%"
         viewBox="0 0 200 100">
@@ -164,7 +166,8 @@ const DatabaseWithRestApi = ({
         {/* box outter circle */}
         <div
           className="absolute -bottom-8 z-30 grid h-[60px] w-[60px] place-items-center rounded-full border-t bg-[#141516] font-semibold text-xs">
-          {circleText ? circleText : "SVG"}
+          {circleText ? circleText : <FaReact size={20} />
+}
         </div>
         {/* box content */}
         <div
@@ -172,13 +175,13 @@ const DatabaseWithRestApi = ({
           {/* Badges */}
           <div
             className="absolute bottom-8 left-12 z-10 h-7 rounded-full bg-[#101112] px-3 text-xs border flex items-center gap-2 ">
-            <HeartHandshakeIcon className="size-4" />
-            <span>{buttonTexts?.first || "LegionDev"}</span>
+            <FaNodeJs className="size-4" />
+            <span>{buttonTexts?.first || "Node.js"}</span>
           </div>
           <div
             className="absolute right-16 z-10 hidden h-7 rounded-full bg-[#101112] px-3 text-xs sm:flex border items-center gap-2">
-            <Folder className="size-4" />
-            <span>{buttonTexts?.second || "v2_updates"}</span>
+            <SiPostman className="size-4" />
+            <span>{buttonTexts?.second || "Postman"}</span>
           </div>
           {/* Circles */}
           <motion.div

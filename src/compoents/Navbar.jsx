@@ -3,6 +3,7 @@ import {
   FaDribbble,
   FaInfinity,
 } from "react-icons/fa6";
+import { IoInfinite } from "react-icons/io5";
 import { LuGithub } from "react-icons/lu";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
       <span className="text-white flex font-oswald font-bold text-3xl">
         timel
         <span className="flex items-center font-bold">
-          <FaInfinity />
+          <IoInfinite className="" />
         </span>
         p
       </span>
