@@ -8,7 +8,7 @@ const Info = () => {
       <BackgroundPaths />
 
       <div className="p-4 relative z-10">
-        <div className="absolute left-100 top-40 rounded-xl font-mono tracking-tighter border-[1.3px] bg-background border-black w-[26rem] h-[17rem] p-3">
+        <div className="absolute left-100 top-30 rounded-xl font-mono tracking-tighter border-[1.3px] bg-background border-black w-[26rem] h-[17rem] p-3">
           <span className="text-2xl font-semibold">I'm Het</span>
           <br />
           <p className="mt-2 ">
@@ -18,7 +18,7 @@ const Info = () => {
             something amazing together!
           </p>
         </div>
-        <div className="absolute right-100 top-90 rounded-xl font-mono tracking-tighter border-[1.3px] bg-background border-black w-[26rem] h-[17rem] p-3">
+        <div className="absolute right-100 top-80 rounded-xl font-mono tracking-tighter border-[1.3px] bg-background border-black w-[26rem] h-[17rem] p-3">
           <span className="text-2xl font-semibold">AKA.</span>
           <br />
           <p className="mt-2 ">
