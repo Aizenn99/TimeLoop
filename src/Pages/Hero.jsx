@@ -29,16 +29,14 @@ const Hero = () => {
           since 2023
         </div>
         <a href="#contact">
-  <div className="rounded-3xl border cursor-pointer border-white bg-gray-100/15 text-white font-bebas flex gap-2 tracking-widest backdrop-blur-lg p-2 mt-4">
-    <span className="flex items-center">
-      <LuCircleDotDashed className="animate-spin-slow text-green-500" />
-    </span>
-    Available for work
-  </div>
-</a>
-        
+          <div className="rounded-3xl border cursor-pointer border-white bg-gray-100/15 text-white font-bebas flex gap-2 tracking-widest backdrop-blur-lg p-2 mt-4">
+            <span className="flex items-center">
+              <LuCircleDotDashed className="animate-spin-slow text-green-500" />
+            </span>
+            Available for work
+          </div>
+        </a>
       </div>
-    
     </div>
   );
 };
