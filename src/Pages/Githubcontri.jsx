@@ -18,18 +18,19 @@ const Githubcontri = () => {
           </h2>
         </div>
 
-        <div className="text-black" >
-
-        <GitHubCalendar
-          username="Aizenn99"
-          blockSize={15}
-          blockMargin={5}
-          fontSize={14}
-          colorScheme="light"
-          transformData={(data) =>
-            data.filter((day) => new Date(day.date) >= fromDate)
-          }
-        />
+       <div className="w-full overflow-x-auto flex justify-center items-center scrollbar-hide  sm:overflow-visible">
+          <div className="min-w-[500px] sm:min-w-0 text-black">
+            <GitHubCalendar
+              username="Aizenn99"
+              blockSize={15}
+              blockMargin={5}
+              fontSize={14}
+              colorScheme="light"
+              transformData={(data) =>
+                data.filter((day) => new Date(day.date) >= fromDate)
+              }
+            />
+          </div>
         </div>
       </div>
     </div>
