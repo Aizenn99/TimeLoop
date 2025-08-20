@@ -4,6 +4,8 @@ import { FaXTwitter, FaInstagram, FaFigma } from "react-icons/fa6";
 import { SiThreads, SiGoogle, SiUnsplash } from "react-icons/si";
 import { RiVercelLine } from "react-icons/ri";
 import { LuGithub } from "react-icons/lu";
+import { TextShimmer } from "@/components/ui/text-shimmer";
+import { TextScramble } from "@/components/ui/text-scramble";
 
 const TechInfo = () => {
   const iconStyle =
@@ -25,6 +27,8 @@ const TechInfo = () => {
       hour12: true,
     }).format(new Date());
   };
+
+  
 
   useEffect(() => {
     const updateTimes = () => {
@@ -119,7 +123,7 @@ const TechInfo = () => {
         <div className="flex flex-col gap-2 px-2 mt-6">
           <div>
             <a href="https://apple-nine-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <span className="cursor-pointer">Apple Clone</span>
+              <span className="cursor-pointer" >  Apple Clone  </span>
             </a>
             <p className="text-muted-foreground text-xs">
               iPhone 15 Pro site using React and GSAP animations.
@@ -127,7 +131,7 @@ const TechInfo = () => {
           </div>
           <div>
             <a href="https://github.com/Aizenn99/E_commerce" target="_blank" rel="noopener noreferrer">
-              <span className="cursor-pointer">E-commerce</span>
+              <span className="cursor-pointer white-glow ">E-commerce</span>
             </a>
             <p className="text-muted-foreground text-xs">
               Full MERN site with Admin and User panel.
@@ -135,7 +139,7 @@ const TechInfo = () => {
           </div>
           <div>
             <a href="https://github.com/Aizenn99/health-Path" target="_blank" rel="noopener noreferrer">
-              <span className="cursor-pointer">Health Path Finder</span>
+              <span className="cursor-pointer  white-glow ">Health Path Finder</span>
             </a>
             <p className="text-muted-foreground text-xs">
               Enter symptoms and get possible diseases.
@@ -143,7 +147,7 @@ const TechInfo = () => {
           </div>
           <div>
             <a href="https://github.com/Aizenn99/Expense_Tracker" target="_blank" rel="noopener noreferrer">
-              <span className="cursor-pointer">Expense Tracker</span>
+              <span className="cursor-pointer white-glow ">Expense Tracker</span>
             </a>
             <p className="text-muted-foreground text-xs">
               Track your income and expenses daily.
@@ -151,7 +155,7 @@ const TechInfo = () => {
           </div>
           <div>
             <a href="https://github.com/Aizenn99/EasyTax" target="_blank" rel="noopener noreferrer">
-              <span className="cursor-pointer">Easy Tax</span>
+              <span className="cursor-pointer white-glow ">Easy Tax</span>
             </a>
             <p className="text-muted-foreground text-xs">
               Sell and post your car online.

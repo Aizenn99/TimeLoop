@@ -22,9 +22,9 @@ const Contact = () => {
         </div>
 
         {/* Heading */}
-        <h2 className="text-4xl lg:text-7xl  font-bold mb-16 animate-fade-in-up">
+        <h2 className="text-4xl lg:text-7xl flex items-center justify-center font-bold mb-16 animate-fade-in-up">
           Let's w
-          <span className="inline-flex items-center justify-center text-yellow-400 mx-1">
+          <span className="inline-flex items-center justify-center  text-yellow-400 mx-1">
             <IoInfinite className="text-5xl lg:text-6xl" />
           </span>
           rk together
